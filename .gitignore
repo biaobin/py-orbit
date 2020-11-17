@@ -5,3 +5,8 @@ bin/pyORBIT
 *~
 *.o
 *.so
+.DS_Store
+examples
+.project
+.cproject
+.vscode

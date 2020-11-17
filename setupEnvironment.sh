@@ -48,3 +48,8 @@ fi
 
 export MPI_CPP=$MPI_RUN_DIR/mpicxx
 echo "MPI_CPP set to $MPI_CPP"
+
+# biaobin, 2020-11-12, add Gnuplot module
+export PYTHONPATH=${PYTHONPATH}:/Applications/anaconda3/envs/py27/lib/python2.7/site-packages
+
+export PATH=/Users/biaobin/gitlab_subjects/py-orbit/bin:$PATH
